@@ -33,7 +33,7 @@ export TARGET_USE_LOWRAM_PROFILE=true
 # ──────────────────────────────
 export LUNARIS_MAINTAINER="Himanshu"
 export LUNARIS_DEVICE="rhode"
-export LUNARIS_SOURCE="https://github.com/cordbase/SM6225_manifests"
+export LUNARIS_SOURCE="cordbase"
 
 # Add props to system.prop overlay so they get picked up
 mkdir -p vendor/lunaris/overlay
