@@ -50,9 +50,9 @@ echo "======== Environment setup ========"
 # Lunch & Build
 # ──────────────────────────────
 echo "======== Lunching target ========"
-lunch lunaris_rhode-userdebug
+lunch lineage_rhode-bp2a-user
 
 echo "======== Starting build ========"
-mka bacon -j$(nproc --all)
+m lunaris
 
 echo "✅ Build finished! Check out/target/product/rhode/ for output zip."
