@@ -5,7 +5,6 @@ set -e
 
 echo "======== Cleaning old manifests and prebuilts ========"
 rm -rf .repo/local_manifests
-rm -rf hardware/motorola
 rm -rf packages/resources/devicesettings
 rm -rf prebuilts/clang/host/linux-x86
 
